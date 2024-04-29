@@ -11,6 +11,6 @@ while True:
         break
     elif user_guess < number:
         print(f"your guess is too small, try again")
-    elif user_guess > number:
+    else:
         print(f"your guess is too big, try again")
 print(f"You found the correct number after {rounds} rounds")
