@@ -9,7 +9,7 @@ while True:
     if user_guess == number:
         print(f"Good guess!")
         break
-    elif user_guess < number:
+    if user_guess < number:
         print(f"your guess is too small, try again")
     else:
         print(f"your guess is too big, try again")
