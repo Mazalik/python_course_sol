@@ -6,7 +6,7 @@ def test_count_characters():
 
 def test_count_words():
     assert functions_count_from_text.count_words("first second third 4th") == 4
-    assert functions_count_from_text.count_words("ubuu-ibib-ibibi-bibibi-ibibi") == 1
+    assert functions_count_from_text.count_words("ubuu-ibib-ibibi-bibibi-ii") == 1
     assert functions_count_from_text.count_words("") == 0
 
 def test_count_lines():
