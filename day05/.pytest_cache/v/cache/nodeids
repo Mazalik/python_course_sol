@@ -1,0 +1,5 @@
+[
+  "test_count_from_file.py::test_count_characters",
+  "test_count_from_file.py::test_count_lines",
+  "test_count_from_file.py::test_count_words"
+]
