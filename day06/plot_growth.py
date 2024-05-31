@@ -7,17 +7,20 @@ def main():
     x = input("Please enter the full name of the excel file you would like to work on")
 
     turbidity_data = functions_plot_growth.read_data(x)
-    print(turbidity_data)
-    if not turbidity_data:
-        exit
-    
+    if not isinstance(turbidity_data, pd.DataFrame):
+        return
+         
     turbidity_data = functions_plot_growth.calculate_real_turbidity(turbidity_data)
     
-    #turbidity_data['turbidity_OD600'] = turbidity_data.raw_turbidity_OD600 * turbidity_data.dilution_factor
-
     turbidity_data.plot.scatter(x='time_hr', y='turbidity_OD600')
     plt.savefig('growth_plot.png')
     plt.show()
+
+    #print(functions_plot_growth.calculate_real_turbidity('test_c.xlsx'))
+    print(pd.read_excel('test_c.xlsx'))
+
+    #functions_plot_growth.calculate_real_turbidity('test_c.xlsx') == pd.read_excel('test_d.xlsx')
+
 
 if __name__ == "__main__":
     main()

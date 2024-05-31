@@ -7,6 +7,7 @@ def read_data(x):
         print("make sure your file is in the correct tamplate")
         return False
     else:
+
         return turbidity_data
 
 def calculate_real_turbidity(turbidity_data):
