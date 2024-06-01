@@ -12,15 +12,9 @@ def main():
          
     turbidity_data = functions_plot_growth.calculate_real_turbidity(turbidity_data)
     
-    turbidity_data.plot.scatter(x='time_hr', y='turbidity_OD600')
+    turbidity_data.plot(x='time_hr', y='turbidity_OD600')
     plt.savefig('growth_plot.png')
     plt.show()
-
-    #print(functions_plot_growth.calculate_real_turbidity('test_c.xlsx'))
-    print(pd.read_excel('test_c.xlsx'))
-
-    #functions_plot_growth.calculate_real_turbidity('test_c.xlsx') == pd.read_excel('test_d.xlsx')
-
 
 if __name__ == "__main__":
     main()

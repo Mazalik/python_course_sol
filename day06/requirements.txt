@@ -1,2 +1,5 @@
 pytest
 openpyxl
+pandas
+matplotlib
+matplotlib.pyplot
