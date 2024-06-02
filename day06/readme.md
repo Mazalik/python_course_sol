@@ -1,6 +1,6 @@
 # Bacterial Growth Plotter
 
-Thi program allows users to upload an Excel table containing data on time, measured turbidity, and dilution factors collected during bacterial growth in a fermentor. Using this data, the program generates a growth plot that reflects the real turbidity after accounting for the dilution factors. The resulting plot is both displayed to the user and saved for future reference.
+This program allows users to upload an Excel table containing data on time, measured turbidity, and dilution factors collected during bacterial growth in a fermentor. Using this data, the program generates a growth plot that reflects the real turbidity after accounting for the dilution factors. The resulting plot is both displayed to the user and saved for future reference.
 
 ## Features
 - Upload an Excel table with time, measured turbidity, and dilution factor data.
