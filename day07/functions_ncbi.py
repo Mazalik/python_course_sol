@@ -30,8 +30,8 @@ def data_fetch(record, termx):
         for id in record["IdList"]:
             fetch_handle = Entrez.efetch(db="protein", id=record["IdList"], rettype="gb", retmode="text")
             protein_info = fetch_handle.read()
-            file_name = f"search_downloads/{termx}_{id}.txt"
-            print(f"The file: {termx}_{id}.txt was created and saved in search_downloads folder")
+            file_name = f"search_downloads/{termx}_{id}.gb"
+            print(f"The file: {termx}_{id}.gb was created and saved in search_downloads folder")
             with open(file_name, "w") as file:
                 file.write(protein_info)
         fetch_handle.close()
