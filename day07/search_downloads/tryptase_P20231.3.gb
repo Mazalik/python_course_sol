@@ -1,0 +1,691 @@
+LOCUS       TRYB2_HUMAN              275 aa            linear   PRI 29-MAY-2024
+DEFINITION  RecName: Full=Tryptase beta-2; Short=Tryptase-2; AltName:
+            Full=Tryptase II; Flags: Precursor.
+ACCESSION   P20231
+VERSION     P20231.3
+DBSOURCE    UniProtKB: locus TRYB2_HUMAN, accession P20231;
+            class: standard.
+            extra accessions:D2E6S0,D2E6S2,O95827,Q15664,Q9UQI6,Q9UQI7
+            created: Feb 1, 1991.
+            sequence updated: Jun 28, 2023.
+            annotation updated: May 29, 2024.
+            xrefs: M37488.1, AAA51843.1, S55551.1, AAD13876.1, AF099143.1,
+            AAD17859.2, AF099145.1, AAD17857.1, AF099146.1, AAD17858.1,
+            FJ931117.1, ACZ98911.1, FJ931120.1, ACZ98913.1, AC120498.2,
+            BC029356.1, AAH29356.1, M33492.1, AAA36779.1, M33493.1, AAA36780.1,
+            B35863, C35863, NP_077078.5, 1A0L_A, 1A0L_B, 1A0L_C, 1A0L_D,
+            2BM2_A, 2BM2_B, 2BM2_C, 2BM2_D, 2FPZ_A, 2FPZ_B, 2FPZ_C, 2FPZ_D,
+            2FS8_A, 2FS8_B, 2FS8_C, 2FS8_D, 2FS9_A, 2FS9_B, 2FS9_C, 2FS9_D,
+            2FWW_A, 2FWW_B, 2FWW_C, 2FWW_D, 2FXR_A, 2FXR_B, 2FXR_C, 2FXR_D,
+            2GDD_A, 2GDD_B, 2GDD_C, 2GDD_D, 2ZA5_A, 2ZA5_B, 2ZA5_C, 2ZA5_D,
+            3V7T_A, 3V7T_B, 3V7T_C, 3V7T_D
+            xrefs (non-sequence databases): PDBsum:1A0L, PDBsum:2BM2,
+            PDBsum:2FPZ, PDBsum:2FS8, PDBsum:2FS9, PDBsum:2FWW, PDBsum:2FXR,
+            PDBsum:2GDD, PDBsum:2ZA5, PDBsum:3V7T, AlphaFoldDB:P20231,
+            SMR:P20231, BioGRID:113029, BioGRID:122201, ComplexPortal:CPX-3805,
+            IntAct:P20231, MINT:P20231, BindingDB:P20231, ChEMBL:CHEMBL4523196,
+            DrugBank:DB04654, DrugBank:DB04764, DrugBank:DB02018,
+            DrugBank:DB06962, MEROPS:S01.015, MEROPS:S01.143, GlyConnect:1862,
+            GlyCosmos:P20231, GlyGen:P20231, iPTMnet:P20231,
+            PhosphoSitePlus:P20231, BioMuta:TPSB2, DMDM:116242830,
+            jPOST:P20231, MassIVE:P20231, PeptideAtlas:P20231,
+            Antibodypedia:4287, DNASU:7177, Ensembl:ENST00000606293.5,
+            Ensembl:ENSP00000482743.1, Ensembl:ENSG00000197253.14,
+            GeneID:64499, KEGG:hsa:64499, MANE-Select:ENST00000606293.5,
+            UCSC:uc032dnv.1, AGR:HGNC:12019, AGR:HGNC:14120, CTD:64499,
+            DisGeNET:64499, DisGeNET:7177, GeneCards:TPSB2, HGNC:14120,
+            HPA:ENSG00000197253, MIM:191081, neXtProt:NX_P20231,
+            OpenTargets:ENSG00000197253, PharmGKB:PA36698,
+            VEuPathDB:HostDB:ENSG00000197253, GeneTree:ENSGT00940000164974,
+            HOGENOM:CLU_006842_13_1_1, InParanoid:P20231, OMA:FENISPG,
+            OrthoDB:4629979at2759, PhylomeDB:P20231, BRENDA:3.4.21.59,
+            PathwayCommons:P20231, SignaLink:P20231, BioGRID-ORCS:64499,
+            BioGRID-ORCS:7177, ChiTaRS:TPSB2, EvolutionaryTrace:P20231,
+            GeneWiki:TPSB2, Pharos:P20231, PRO:PR:P20231,
+            Proteomes:UP000005640, RNAct:P20231, Bgee:ENSG00000197253,
+            ExpressionAtlas:P20231, GO:0062023, GO:0005615, GO:0004252,
+            GO:0008236, GO:0006508, CDD:cd00190, Gene3D:2.40.10.10,
+            InterPro:IPR009003, InterPro:IPR043504, InterPro:IPR001314,
+            InterPro:IPR001254, InterPro:IPR018114, InterPro:IPR033116,
+            PANTHER:PTHR24253, PANTHER:PTHR24253:SF32, Pfam:PF00089,
+            PRINTS:PR00722, SMART:SM00020, SUPFAM:SSF50494, PROSITE:PS50240,
+            PROSITE:PS00134, PROSITE:PS00135
+KEYWORDS    3D-structure; Disulfide bond; Glycoprotein; Hydrolase;
+            Phosphoprotein; Protease; Reference proteome; Secreted; Serine
+            protease; Signal; Zymogen.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 275)
+  AUTHORS   Miller,J.S., Moxley,G. and Schwartz,L.B.
+  TITLE     Cloning and characterization of a second complementary DNA for
+            human tryptase
+  JOURNAL   J Clin Invest 86 (3), 864-870 (1990)
+   PUBMED   2203827
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ALLELE BETA-2), AND VARIANTS HIS-51;
+            GLY-52 AND PRO-53.;
+            TISSUE=Lung
+REFERENCE   2  (residues 1 to 275)
+  AUTHORS   Blom,T. and Hellman,L.
+  TITLE     Characterization of a tryptase mRNA expressed in the human basophil
+            cell line KU812
+  JOURNAL   Scand J Immunol 37 (2), 203-208 (1993)
+   PUBMED   8434231
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ALLELE BETA-2), AND VARIANTS HIS-51;
+            GLY-52 AND PRO-53.
+REFERENCE   3  (residues 1 to 275)
+  AUTHORS   Pallaoro,M., Fejzo,M.S., Shayesteh,L., Blount,J.L. and Caughey,G.H.
+  TITLE     Characterization of genes encoding known and novel human mast cell
+            tryptases on chromosome 16p13.3
+  JOURNAL   J Biol Chem 274 (6), 3355-3362 (1999)
+   PUBMED   9920877
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA] (VARIANTS BETA-2 AND BETA-3).
+REFERENCE   4  (residues 1 to 275)
+  AUTHORS   Pallaoro,M., Fejzo,M.S., Shayesteh,L., Blount,J.L. and Caughey,G.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-OCT-2001) to the EMBL/GenBank/DDBJ databases
+  REMARK    SEQUENCE REVISION.
+REFERENCE   5  (residues 1 to 275)
+  AUTHORS   Trivedi,N.N., Tamraz,B., Chu,C., Kwok,P.Y. and Caughey,G.H.
+  TITLE     Human subjects are protected from mast cell tryptase deficiency
+            despite frequent inheritance of loss-of-function mutations
+  JOURNAL   J Allergy Clin Immunol 124 (5), 1099-105 (2009)
+   PUBMED   19748655
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ALLELE BETA-2), NUCLEOTIDE
+            SEQUENCE [MRNA] OF 50-275 (VARIANT BETA-3), AND VARIANTS HIS-51;
+            GLY-52 AND PRO-53.
+REFERENCE   6  (residues 1 to 275)
+  AUTHORS   Martin,J., Han,C., Gordon,L.A., Terry,A., Prabhakar,S., She,X.,
+            Xie,G., Hellsten,U., Chan,Y.M., Altherr,M., Couronne,O., Aerts,A.,
+            Bajorek,E., Black,S., Blumer,H., Branscomb,E., Brown,N.C.,
+            Bruno,W.J., Buckingham,J.M., Callen,D.F., Campbell,C.S.,
+            Campbell,M.L., Campbell,E.W., Caoile,C., Challacombe,J.F.,
+            Chasteen,L.A., Chertkov,O., Chi,H.C., Christensen,M., Clark,L.M.,
+            Cohn,J.D., Denys,M., Detter,J.C., Dickson,M.,
+            Dimitrijevic-Bussod,M., Escobar,J., Fawcett,J.J., Flowers,D.,
+            Fotopulos,D., Glavina,T., Gomez,M., Gonzales,E., Goodstein,D.,
+            Goodwin,L.A., Grady,D.L., Grigoriev,I., Groza,M., Hammon,N.,
+            Hawkins,T., Haydu,L., Hildebrand,C.E., Huang,W., Israni,S.,
+            Jett,J., Jewett,P.B., Kadner,K., Kimball,H., Kobayashi,A.,
+            Krawczyk,M.C., Leyba,T., Longmire,J.L., Lopez,F., Lou,Y., Lowry,S.,
+            Ludeman,T., Manohar,C.F., Mark,G.A., McMurray,K.L., Meincke,L.J.,
+            Morgan,J., Moyzis,R.K., Mundt,M.O., Munk,A.C., Nandkeshwar,R.D.,
+            Pitluck,S., Pollard,M., Predki,P., Parson-Quintana,B., Ramirez,L.,
+            Rash,S., Retterer,J., Ricke,D.O., Robinson,D.L., Rodriguez,A.,
+            Salamov,A., Saunders,E.H., Scott,D., Shough,T., Stallings,R.L.,
+            Stalvey,M., Sutherland,R.D., Tapia,R., Tesmer,J.G., Thayer,N.,
+            Thompson,L.S., Tice,H., Torney,D.C., Tran-Gyamfi,M., Tsai,M.,
+            Ulanovsky,L.E., Ustaszewska,A., Vo,N., White,P.S., Williams,A.L.,
+            Wills,P.L., Wu,J.R., Wu,K., Yang,J., Dejong,P., Bruce,D.,
+            Doggett,N.A., Deaven,L., Schmutz,J., Grimwood,J., Richardson,P.,
+            Rokhsar,D.S., Eichler,E.E., Gilna,P., Lucas,S.M., Myers,R.M.,
+            Rubin,E.M. and Pennacchio,L.A.
+  TITLE     The sequence and analysis of duplication-rich human chromosome 16
+  JOURNAL   Nature 432 (7020), 988-994 (2004)
+   PUBMED   15616553
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+REFERENCE   7  (residues 1 to 275)
+  AUTHORS   Gerhard,D.S., Wagner,L., Feingold,E.A., Shenmen,C.M., Grouse,L.H.,
+            Schuler,G., Klein,S.L., Old,S., Rasooly,R., Good,P., Guyer,M.,
+            Peck,A.M., Derge,J.G., Lipman,D., Collins,F.S., Jang,W., Sherry,S.,
+            Feolo,M., Misquitta,L., Lee,E., Rotmistrovsky,K., Greenhut,S.F.,
+            Schaefer,C.F., Buetow,K., Bonner,T.I., Haussler,D., Kent,J.,
+            Kiekhaus,M., Furey,T., Brent,M., Prange,C., Schreiber,K.,
+            Shapiro,N., Bhat,N.K., Hopkins,R.F., Hsie,F., Driscoll,T.,
+            Soares,M.B., Casavant,T.L., Scheetz,T.E., Brown-stein,M.J.,
+            Usdin,T.B., Toshiyuki,S., Carninci,P., Piao,Y., Dudekula,D.B.,
+            Ko,M.S., Kawakami,K., Suzuki,Y., Sugano,S., Gruber,C.E.,
+            Smith,M.R., Simmons,B., Moore,T., Waterman,R., Johnson,S.L.,
+            Ruan,Y., Wei,C.L., Mathavan,S., Gunaratne,P.H., Wu,J., Garcia,A.M.,
+            Hulyk,S.W., Fuh,E., Yuan,Y., Sneed,A., Kowis,C., Hodgson,A.,
+            Muzny,D.M., McPherson,J., Gibbs,R.A., Fahey,J., Helton,E.,
+            Ketteman,M., Madan,A., Rodrigues,S., Sanchez,A., Whiting,M.,
+            Madari,A., Young,A.C., Wetherby,K.D., Granite,S.J., Kwong,P.N.,
+            Brinkley,C.P., Pearson,R.L., Bouffard,G.G., Blakesly,R.W.,
+            Green,E.D., Dickson,M.C., Rodriguez,A.C., Grimwood,J., Schmutz,J.,
+            Myers,R.M., Butterfield,Y.S., Griffith,M., Griffith,O.L.,
+            Krzywinski,M.I., Liao,N., Morin,R., Palmquist,D., Petrescu,A.S.,
+            Skalska,U., Smailus,D.E., Stott,J.M., Schnerch,A., Schein,J.E.,
+            Jones,S.J., Holt,R.A., Baross,A., Marra,M.A., Clifton,S.,
+            Makowski,K.A., Bosak,S. and Malek,J.
+  CONSRTM   MGC Project Team
+  TITLE     The status, quality, and expansion of the NIH full-length cDNA
+            project: the Mammalian Gene Collection (MGC)
+  JOURNAL   Genome Res 14 (10B), 2121-2127 (2004)
+   PUBMED   15489334
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ALLELE BETA-2), AND
+            VARIANTS HIS-51; GLY-52 AND PRO-53.;
+            TISSUE=Lung
+            Erratum:[Genome Res. 2006 Jun;16(6):804. Morrin, Ryan [corrected to
+            Morin, Ryan]]
+REFERENCE   8  (residues 1 to 275)
+  AUTHORS   Vanderslice,P., Ballinger,S.M., Tam,E.K., Goldstein,S.M.,
+            Craik,C.S. and Caughey,G.H.
+  TITLE     Human mast cell tryptase: multiple cDNAs and genes reveal a
+            multigene serine protease family
+  JOURNAL   Proc Natl Acad Sci U S A 87 (10), 3811-3815 (1990)
+   PUBMED   2187193
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] OF 2-275 (ALLELE BETA-2), NUCLEOTIDE
+            SEQUENCE [MRNA] OF 9-275 (ALLELE BETA-3), AND VARIANTS HIS-51;
+            GLY-52 AND PRO-53.
+REFERENCE   9  (residues 1 to 275)
+  AUTHORS   Strik,M.C., Wolbink,A., Wouters,D., Bladergroen,B.A., Verlaan,A.R.,
+            van Houdt,I.S., Hijlkema,S., Hack,C.E. and Kummer,J.A.
+  TITLE     Intracellular serpin SERPINB6 (PI6) is abundantly expressed by
+            human mast cells and forms complexes with beta-tryptase monomers
+  JOURNAL   Blood 103 (7), 2710-2717 (2004)
+   PUBMED   14670919
+  REMARK    FORMATION OF A COMPLEX WITH SERPINB6.
+REFERENCE   10 (residues 1 to 275)
+  AUTHORS   Fukuoka,Y. and Schwartz,L.B.
+  TITLE     Active monomers of human beta-tryptase have expanded substrate
+            specificities
+  JOURNAL   Int Immunopharmacol 7 (14), 1900-1908 (2007)
+   PUBMED   18039527
+  REMARK    SUBUNIT.
+REFERENCE   11 (residues 1 to 275)
+  AUTHORS   Vaca Jacome,A.S., Rabilloud,T., Schaeffer-Reiss,C., Rompais,M.,
+            Ayoub,D., Lane,L., Bairoch,A., Van Dorsselaer,A. and Carapito,C.
+  TITLE     N-terminome analysis of the human mitochondrial proteome
+  JOURNAL   Proteomics 15 (14), 2519-2524 (2015)
+   PUBMED   25944712
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+REFERENCE   12 (residues 1 to 275)
+  AUTHORS   Pereira,P.J., Bergner,A., Macedo-Ribeiro,S., Huber,R.,
+            Matschiner,G., Fritz,H., Sommerhoff,C.P. and Bode,W.
+  TITLE     Human beta-tryptase is a ring-like tetramer with active sites
+            facing a central pore
+  JOURNAL   Nature 392 (6673), 306-311 (1998)
+   PUBMED   9521329
+  REMARK    X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS).
+REFERENCE   13 (residues 1 to 275)
+  AUTHORS   Sommerhoff,C.P., Bode,W., Pereira,P.J., Stubbs,M.T.,
+            Sturzebecher,J., Piechottka,G.P., Matschiner,G. and Bergner,A.
+  TITLE     The structure of the human betaII-tryptase tetramer: fo(u)r better
+            or worse
+  JOURNAL   Proc Natl Acad Sci U S A 96 (20), 10984-10991 (1999)
+   PUBMED   10500112
+  REMARK    X-RAY CRYSTALLOGRAPHY (3.4 ANGSTROMS).
+COMMENT     On Jun 30, 2023 this sequence version replaced P20231.2.
+            [FUNCTION] Tryptase is the major neutral protease present in mast
+            cells and is secreted upon the coupled activation-degranulation
+            response of this cell type. May play a role in innate immunity.
+            {ECO:0000250, ECO:0000250|UniProtKB:P21845}.
+            [CATALYTIC ACTIVITY] Reaction=Preferential cleavage: Arg-|-Xaa,
+            Lys-|-Xaa, but with more restricted specificity than trypsin.;
+            EC=3.4.21.59.
+            [SUBUNIT] Homotetramer. The active tetramer is converted to
+            inactive monomers at neutral and acidic pH in the absence of
+            heparin. Low concentrations of inactive monomers become active
+            monomers at pH 6.0 in the presence of heparin. When the
+            concentration of active monomers is higher, they convert to active
+            monomers and then to active tetramers. These monomers are active
+            and functionally distinct from the tetrameric enzyme. In contrast
+            to the hidden active sites in the tetrameric form, the active site
+            of the monomeric form is accessible for macromolecular proteins and
+            inhibitors eg: fibrinogen which is a substrate for the monomeric
+            but not for the tetrameric form. The monomeric form forms a complex
+            with SERPINB6. {ECO:0000269|PubMed:18039527}.
+            [SUBCELLULAR LOCATION] Secreted. Note=Released from the secretory
+            granules upon mast cell activation.
+            [POLYMORPHISM] There are two alleles; beta-II and beta-III. There
+            are two forms of the beta-III allele, a short and a long form. The
+            short form (also named frameshifted form) is carried by 23% and 19%
+            of individuals of European and African ancestry but 0% of Asian
+            subjects. The sequence shown is that of allele beta-III short form.
+            {ECO:0000269|PubMed:19748655, ECO:0000269|PubMed:2187193,
+            ECO:0000269|PubMed:2203827, ECO:0000269|PubMed:8434231,
+            ECO:0000269|PubMed:9920877}.
+            [SIMILARITY] Belongs to the peptidase S1 family. Tryptase
+            subfamily. {ECO:0000255|PROSITE-ProRule:PRU00274}.
+FEATURES             Location/Qualifiers
+     source          1..275
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     gene            1..275
+                     /gene="TPSB2"
+                     /gene_synonym="TPS2"
+     Protein         1..275
+                     /product="Tryptase beta-2"
+                     /EC_number="3.4.21.59"
+                     /note="Tryptase-2; Tryptase II"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..18
+                     /region_name="Signal"
+                     /note="/evidence=ECO:0000255."
+     Region          19..30
+                     /region_name="Propeptide"
+                     /note="Activation peptide. /id=PRO_0000027481."
+     Region          31..275
+                     /region_name="Mature chain"
+                     /note="Tryptase beta-2. /id=PRO_0000027482."
+     Region          31..272
+                     /region_name="Domain"
+                     /note="Peptidase S1.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          31..268
+                     /region_name="Tryp_SPc"
+                     /note="Trypsin-like serine protease; Many of these are
+                     synthesized as inactive precursor zymogens that are
+                     cleaved during limited proteolysis to generate their
+                     active forms. Alignment contains also inactive enzymes
+                     that have substitutions of the catalytic triad...;
+                     cd00190"
+                     /db_xref="CDD:238113"
+     Site            31
+                     /site_type="active"
+                     /note="cleavage site [active]"
+                     /db_xref="CDD:238113"
+     Region          32..36
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:3V7T."
+     Region          39..41
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2BM2."
+     Region          45..50
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          51
+                     /region_name="Variant"
+                     /note="R -> H (in allele beta-II; dbSNP:rs752157957).
+                     /evidence=ECO:0000269|PubMed:15489334,
+                     ECO:0000269|PubMed:19748655, ECO:0000269|PubMed:2187193,
+                     ECO:0000269|PubMed:2203827, ECO:0000269|PubMed:8434231.
+                     /id=VAR_088016."
+     Region          52..54
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          52
+                     /region_name="Variant"
+                     /note="D -> G (in allele beta-II; dbSNP:rs775724245).
+                     /evidence=ECO:0000269|PubMed:15489334,
+                     ECO:0000269|PubMed:19748655, ECO:0000269|PubMed:2187193,
+                     ECO:0000269|PubMed:2203827, ECO:0000269|PubMed:8434231.
+                     /id=VAR_088017."
+     Region          53
+                     /region_name="Variant"
+                     /note="R -> P (in allele beta-II; dbSNP:rs200873299).
+                     /evidence=ECO:0000269|PubMed:15489334,
+                     ECO:0000269|PubMed:19748655, ECO:0000269|PubMed:2187193,
+                     ECO:0000269|PubMed:2203827, ECO:0000269|PubMed:8434231.
+                     /id=VAR_088018."
+     Region          56..65
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Bond            bond(59,75)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          68..71
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          73..76
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Site            order(74,121,224)
+                     /site_type="active"
+                     /db_xref="CDD:238113"
+     Site            74
+                     /site_type="active"
+                     /note="Charge relay system.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          83..85
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          86..89
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          95..98
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Site            97
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000250|UniProtKB:P21845."
+     Region          102..109
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          116..118
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Site            121
+                     /site_type="active"
+                     /note="Charge relay system.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          123..129
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          132
+                     /region_name="Conflict"
+                     /note="N -> K (in Ref. 1; AAA51843, 2; AAD13876, 3;
+                     AAD17858, 5; ACZ98911, 7; AAH29356 and 8; AAA36779/
+                     AAA36780). /evidence=ECO:0000305."
+     Region          135..137
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          141
+                     /region_name="Conflict"
+                     /note="T -> A (in Ref. 5; ACZ98913).
+                     /evidence=ECO:0000305."
+     Region          154..161
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Bond            bond(155,230)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          176..183
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          185..193
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Bond            bond(188,211)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          209..212
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          215..218
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Site            order(218,243,245)
+                     /site_type="other"
+                     /note="substrate binding sites [chemical binding]"
+                     /db_xref="CDD:238113"
+     Bond            bond(220,248)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          221..225
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:2ZA5."
+     Site            224
+                     /site_type="active"
+                     /note="Charge relay system.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          227..232
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Site            233
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255."
+     Region          235..244
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          240
+                     /region_name="Conflict"
+                     /note="G -> D (in Ref. 5; ACZ98913).
+                     /evidence=ECO:0000305."
+     Region          246..250
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          255..259
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          260..263
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          264..267
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+     Region          268..270
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:2FPZ."
+ORIGIN      
+        1 mlnllllalp vlasrayaap apgqalqrvg ivggqeaprs kwpwqvslrv rdrywmhfcg
+       61 gslihpqwvl taahcvgpdv kdlaalrvql reqhlyyqdq llpvsriivh pqfytaqiga
+      121 dialleleep vnvsshvhtv tlppasetfp pgmpcwvtgw gdvdnderlp ppfplkqvkv
+      181 pimenhicda kyhlgaytgd dvrivrddml cagntrrdsc qgdsggplvc kvngtwlqag
+      241 vvswgegcaq pnrpgiytrv tyyldwihhy vpkkp
+//
+
+LOCUS       TRYG1_HUMAN              321 aa            linear   PRI 29-MAY-2024
+DEFINITION  RecName: Full=Tryptase gamma; AltName: Full=Serine protease 31;
+            AltName: Full=Transmembrane tryptase; Contains: RecName:
+            Full=Tryptase gamma light chain; Contains: RecName: Full=Tryptase
+            gamma heavy chain; Flags: Precursor.
+ACCESSION   Q9NRR2
+VERSION     Q9NRR2.4
+DBSOURCE    UniProtKB: locus TRYG1_HUMAN, accession Q9NRR2;
+            class: standard.
+            extra accessions:Q96RZ8,Q9C015,Q9NRQ8,Q9UBB2
+            created: Oct 18, 2001.
+            sequence updated: Feb 23, 2022.
+            annotation updated: May 29, 2024.
+            xrefs: AF175522.1, AAF03695.1, AF175759.1, AAF03697.1, AF191031.1,
+            AAF76457.1, AF195508.1, AAF76458.1, AE006466.1, AAK61269.1,
+            AC120498.2, AF223563.3, AAG48852.2, NP_036599.3
+            xrefs (non-sequence databases): CCDS:CCDS10430.1,
+            AlphaFoldDB:Q9NRR2, SMR:Q9NRR2, BioGRID:117351, IntAct:Q9NRR2,
+            STRING:9606.ENSP00000234798, BindingDB:Q9NRR2, ChEMBL:CHEMBL4955,
+            MEROPS:S01.028, GlyCosmos:Q9NRR2, GlyGen:Q9NRR2, iPTMnet:Q9NRR2,
+            PhosphoSitePlus:Q9NRR2, BioMuta:TPSG1, DMDM:296453005,
+            MassIVE:Q9NRR2, PaxDb:9606-ENSP00000234798, PeptideAtlas:Q9NRR2,
+            ProteomicsDB:82407, Antibodypedia:22993, DNASU:25823,
+            Ensembl:ENST00000234798.5, Ensembl:ENSP00000234798.4,
+            Ensembl:ENSG00000116176.8, GeneID:25823, KEGG:hsa:25823,
+            MANE-Select:ENST00000234798.5, UCSC:uc002ckw.3, AGR:HGNC:14134,
+            CTD:25823, DisGeNET:25823, GeneCards:TPSG1, HGNC:14134,
+            HPA:ENSG00000116176, MIM:609341, neXtProt:NX_Q9NRR2,
+            OpenTargets:ENSG00000116176, PharmGKB:PA37849,
+            VEuPathDB:HostDB:ENSG00000116176, eggNOG:KOG3627,
+            GeneTree:ENSGT00940000163349, HOGENOM:CLU_006842_0_4_1,
+            InParanoid:Q9NRR2, OMA:CGQPQHS, OrthoDB:5403157at2759,
+            PhylomeDB:Q9NRR2, TreeFam:TF351676, PathwayCommons:Q9NRR2,
+            SignaLink:Q9NRR2, BioGRID-ORCS:25823, GeneWiki:TPSG1,
+            GenomeRNAi:25823, Pharos:Q9NRR2, PRO:PR:Q9NRR2,
+            Proteomes:UP000005640, RNAct:Q9NRR2, Bgee:ENSG00000116176,
+            GO:0005615, GO:0005886, GO:0004252, GO:0008236, GO:0006508,
+            CDD:cd00190, Gene3D:2.40.10.10, InterPro:IPR009003,
+            InterPro:IPR043504, InterPro:IPR001314, InterPro:IPR001254,
+            InterPro:IPR018114, PANTHER:PTHR24253, PANTHER:PTHR24253:SF10,
+            Pfam:PF00089, PRINTS:PR00722, SMART:SM00020, SUPFAM:SSF50494,
+            PROSITE:PS50240, PROSITE:PS00134
+KEYWORDS    Disulfide bond; Glycoprotein; Hydrolase; Membrane; Protease;
+            Reference proteome; Serine protease; Signal; Transmembrane;
+            Transmembrane helix; Zymogen.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 321)
+  AUTHORS   Wong,G.W., Tang,Y., Feyfant,E., Sali,A., Li,L., Li,Y., Huang,C.,
+            Friend,D.S., Krilis,S.A. and Stevens,R.L.
+  TITLE     Identification of a new member of the tryptase family of mouse and
+            human mast cell proteases which possesses a novel COOH-terminal
+            hydrophobic extension
+  JOURNAL   J Biol Chem 274 (43), 30784-30793 (1999)
+   PUBMED   10521469
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], AND VARIANTS MET-60;
+            ILE-239 AND LEU-288.
+REFERENCE   2  (residues 1 to 321)
+  AUTHORS   Caughey,G.H., Raymond,W.W., Blount,J.L., Hau,L.W., Pallaoro,M.,
+            Wolters,P.J. and Verghese,G.M.
+  TITLE     Characterization of human gamma-tryptases, novel members of the
+            chromosome 16p mast cell tryptase and prostasin gene families
+  JOURNAL   J Immunol 164 (12), 6566-6575 (2000)
+   PUBMED   10843716
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS MET-60; MET-126;
+            THR-132; SER-160; ILE-204; ILE-239 AND LEU-288.
+REFERENCE   3  (residues 1 to 321)
+  AUTHORS   Daniels,R.J., Peden,J.F., Lloyd,C., Horsley,S.W., Clark,K.,
+            Tufarelli,C., Kearney,L., Buckle,V.J., Doggett,N.A., Flint,J. and
+            Higgs,D.R.
+  TITLE     Sequence, structure and pathology of the fully annotated terminal 2
+            Mb of the short arm of human chromosome 16
+  JOURNAL   Hum Mol Genet 10 (4), 339-352 (2001)
+   PUBMED   11157797
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND VARIANT ILE-239.
+REFERENCE   4  (residues 1 to 321)
+  AUTHORS   Martin,J., Han,C., Gordon,L.A., Terry,A., Prabhakar,S., She,X.,
+            Xie,G., Hellsten,U., Chan,Y.M., Altherr,M., Couronne,O., Aerts,A.,
+            Bajorek,E., Black,S., Blumer,H., Branscomb,E., Brown,N.C.,
+            Bruno,W.J., Buckingham,J.M., Callen,D.F., Campbell,C.S.,
+            Campbell,M.L., Campbell,E.W., Caoile,C., Challacombe,J.F.,
+            Chasteen,L.A., Chertkov,O., Chi,H.C., Christensen,M., Clark,L.M.,
+            Cohn,J.D., Denys,M., Detter,J.C., Dickson,M.,
+            Dimitrijevic-Bussod,M., Escobar,J., Fawcett,J.J., Flowers,D.,
+            Fotopulos,D., Glavina,T., Gomez,M., Gonzales,E., Goodstein,D.,
+            Goodwin,L.A., Grady,D.L., Grigoriev,I., Groza,M., Hammon,N.,
+            Hawkins,T., Haydu,L., Hildebrand,C.E., Huang,W., Israni,S.,
+            Jett,J., Jewett,P.B., Kadner,K., Kimball,H., Kobayashi,A.,
+            Krawczyk,M.C., Leyba,T., Longmire,J.L., Lopez,F., Lou,Y., Lowry,S.,
+            Ludeman,T., Manohar,C.F., Mark,G.A., McMurray,K.L., Meincke,L.J.,
+            Morgan,J., Moyzis,R.K., Mundt,M.O., Munk,A.C., Nandkeshwar,R.D.,
+            Pitluck,S., Pollard,M., Predki,P., Parson-Quintana,B., Ramirez,L.,
+            Rash,S., Retterer,J., Ricke,D.O., Robinson,D.L., Rodriguez,A.,
+            Salamov,A., Saunders,E.H., Scott,D., Shough,T., Stallings,R.L.,
+            Stalvey,M., Sutherland,R.D., Tapia,R., Tesmer,J.G., Thayer,N.,
+            Thompson,L.S., Tice,H., Torney,D.C., Tran-Gyamfi,M., Tsai,M.,
+            Ulanovsky,L.E., Ustaszewska,A., Vo,N., White,P.S., Williams,A.L.,
+            Wills,P.L., Wu,J.R., Wu,K., Yang,J., Dejong,P., Bruce,D.,
+            Doggett,N.A., Deaven,L., Schmutz,J., Grimwood,J., Richardson,P.,
+            Rokhsar,D.S., Eichler,E.E., Gilna,P., Lucas,S.M., Myers,R.M.,
+            Rubin,E.M. and Pennacchio,L.A.
+  TITLE     The sequence and analysis of duplication-rich human chromosome 16
+  JOURNAL   Nature 432 (7020), 988-994 (2004)
+   PUBMED   15616553
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+REFERENCE   5  (residues 1 to 321)
+  AUTHORS   Mittman,S. and Agnew,W.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-JAN-2001) to the EMBL/GenBank/DDBJ databases
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 220-321, AND VARIANTS ILE-239
+            AND LEU-288.
+COMMENT     On Mar 4, 2022 this sequence version replaced Q9NRR2.3.
+            [INTERACTION] Q9NRR2; P37235: HPCAL1; NbExp=3; IntAct=EBI-17210651,
+            EBI-749311; Q9NRR2; P61601: NCALD; NbExp=3; IntAct=EBI-17210651,
+            EBI-749635.
+            [SUBCELLULAR LOCATION] Membrane {ECO:0000305}; Single-pass membrane
+            protein {ECO:0000305}.
+            [TISSUE SPECIFICITY] Expressed in many tissues.
+            [POLYMORPHISM] There are two alleles; gamma-I and gamma-II which
+            differ by 5 residues. {ECO:0000269|PubMed:10843716,
+            ECO:0000269|PubMed:11157797}.
+            [SIMILARITY] Belongs to the peptidase S1 family. Tryptase
+            subfamily. {ECO:0000255|PROSITE-ProRule:PRU00274}.
+FEATURES             Location/Qualifiers
+     source          1..321
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     gene            1..321
+                     /gene="TPSG1"
+                     /gene_synonym="PRSS31"
+                     /gene_synonym="TMT"
+     Protein         1..321
+                     /product="Tryptase gamma"
+                     /EC_number="3.4.21.-"
+                     /note="Serine protease 31; Transmembrane tryptase"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..19
+                     /region_name="Signal"
+                     /note="/evidence=ECO:0000255."
+     Region          20..321
+                     /region_name="Mature chain"
+                     /note="Tryptase gamma. /id=PRO_0000027498."
+     Region          20..36
+                     /region_name="Mature chain"
+                     /note="Tryptase gamma light chain. /id=PRO_0000027499."
+     Bond            bond(26,145)
+                     /bond_type="disulfide"
+                     /note="Interchain (between light and heavy chains).
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          38..321
+                     /region_name="Mature chain"
+                     /note="Tryptase gamma heavy chain. /id=PRO_0000027500."
+     Region          38..270
+                     /region_name="Domain"
+                     /note="Peptidase S1.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          38..268
+                     /region_name="Tryp_SPc"
+                     /note="Trypsin-like serine protease; Many of these are
+                     synthesized as inactive precursor zymogens that are
+                     cleaved during limited proteolysis to generate their
+                     active forms. Alignment contains also inactive enzymes
+                     that have substitutions of the catalytic triad...;
+                     cd00190"
+                     /db_xref="CDD:238113"
+     Site            38
+                     /site_type="active"
+                     /note="cleavage site [active]"
+                     /db_xref="CDD:238113"
+     Region          60
+                     /region_name="Variant"
+                     /note="V -> M (in allele gamma-II; dbSNP:rs760357).
+                     /evidence=ECO:0000269|PubMed:10521469,
+                     ECO:0000269|PubMed:10843716. /id=VAR_012097."
+     Bond            bond(63,79)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Site            order(78,125,222)
+                     /site_type="active"
+                     /db_xref="CDD:238113"
+     Site            78
+                     /site_type="active"
+                     /note="Charge relay system. /evidence=ECO:0000250."
+     Site            85
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255."
+     Site            125
+                     /site_type="active"
+                     /note="Charge relay system. /evidence=ECO:0000250."
+     Region          126
+                     /region_name="Variant"
+                     /note="I -> M (in allele gamma-II).
+                     /evidence=ECO:0000269|PubMed:10843716. /id=VAR_012098."
+     Region          132
+                     /region_name="Variant"
+                     /note="S -> T (in allele gamma-II).
+                     /evidence=ECO:0000269|PubMed:10843716. /id=VAR_012099."
+     Bond            bond(159,228)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          160
+                     /region_name="Variant"
+                     /note="W -> S (in dbSNP:rs4984638).
+                     /evidence=ECO:0000269|PubMed:10843716. /id=VAR_025012."
+     Bond            bond(192,210)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Region          204
+                     /region_name="Variant"
+                     /note="L -> I (in allele gamma-II).
+                     /evidence=ECO:0000269|PubMed:10843716. /id=VAR_012100."
+     Site            order(216,241,243)
+                     /site_type="other"
+                     /note="substrate binding sites [chemical binding]"
+                     /db_xref="CDD:238113"
+     Bond            bond(218,246)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU00274."
+     Site            222
+                     /site_type="active"
+                     /note="Charge relay system. /evidence=ECO:0000250."
+     Region          239
+                     /region_name="Variant"
+                     /note="T -> I (in dbSNP:rs11248860).
+                     /evidence=ECO:0000269|PubMed:10521469,
+                     ECO:0000269|PubMed:10843716, ECO:0000269|PubMed:11157797,
+                     ECO:0000269|Ref.5. /id=VAR_061773."
+     Region          284..304
+                     /region_name="Transmembrane region"
+                     /note="Helical. /evidence=ECO:0000255."
+     Region          288
+                     /region_name="Variant"
+                     /note="F -> L (in allele gamma-II; dbSNP:rs1004041).
+                     /evidence=ECO:0000269|PubMed:10521469,
+                     ECO:0000269|PubMed:10843716, ECO:0000269|Ref.5.
+                     /id=VAR_012101."
+ORIGIN      
+        1 malgacglll llavpgvslr tlqpgcgrpq vsdaggrivg ghaapagawp wqaslrlrrv
+       61 hvcggsllsp qwvltaahcf sgslnssdyq vhlgeleitl sphfstvrqi ilhsspsgqp
+      121 gtsgdialve lsvpvtlssr ilpvclpeas ddfcpgircw vtgwgytreg eplpppyslr
+      181 evkvsvvdte tcrrdypgpg gsilqpdmlc argpgdacqd dsggplvcqv ngawvqagtv
+      241 swgegcgrpn rpgvytrvpa yvnwirrhit asggsesgyp rlpllagffl pglflllvsc
+      301 vllakcllhp sadgtpfpap d
+//
+
