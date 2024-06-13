@@ -1,14 +1,6 @@
-# NCBI Protein Search Utility
+# Guess the Number Game
 
-This program allows users to search for proteins in the NCBI database, fetch data about the specified proteins, and save the search results. It also maintains a search history in a CSV file.
-
-## Features
-
-- Accepts user input for the search term and the number of records to retrieve.
-- Searches for specified proteins in the NCBI database.
-- Fetches detailed information about the found proteins.
-- Saves the search history, including the search term, number of records, and the total count of results.
-- Stores the fetched protein data in text files for easy access.
+This project is a simple "Guess the Number" game. The objective of the game is to guess a randomly generated number between 1 and 20. The game provides feedback if the guess is too high or too low, and tracks the number of attempts taken to guess the number correctly.
 
 ## Installation
 
@@ -18,22 +10,36 @@ To use this program, you need to install a few libraries. Use the provided `requ
 pip install -r requirements.txt
 ```
 
-## Usage
+## How to Run the Game
 
-1. Ensure that you have the following setup in your working directory:
-   - A folder named `search_downloads` where the fetched protein data will be saved.
-   - An empty `search_history.csv` file to store the search history.
-
-2. Run the program with the search term and the number of records to retrieve as command-line arguments.
-   ```bash
-   python script_name.py TERM NUMBER
+1. Ensure you have Python installed on your system.
+2. Save the provided code into a file named `guess_the_number.py`.
+3. Run the script using the command: 
+   ```sh
+   python guess_the_number.py
    ```
-   Replace `script_name.py` with the actual name of your Python script, `TERM` with the search term, and `NUMBER` with the number of records you want to retrieve.
+4. A GUI window will appear, allowing you to start playing the game.
 
-3. The program will search the NCBI protein database for the specified term and fetch the specified number of records.
+## Example Usage
 
-4. The search results and metadata will be saved in the following locations:
-   - Search history: `search_history.csv`
-   - Fetched protein data: `search_downloads/` directory
+1. Enter a guess in the input field and click "Guess".
+2. The game will provide feedback if your guess is too high or too low.
+3. Continue guessing until you find the correct number.
+4. Click "New Game" to start a new game.
+5. Click "Show Number" to reveal the secret number.
+6. Click "Exit" to close the game.
 
-5. The program will also display the filenames of the saved data in the console.
+Enjoy playing the "Guess the Number" game!
+
+
+
+
+
+
+
+
+
+
+
+
+
