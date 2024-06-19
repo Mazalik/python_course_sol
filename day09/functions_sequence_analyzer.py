@@ -18,9 +18,6 @@ def read_fasta(file_path):
     return sequence
 
 def duplications(dna):
-    match = re.search(r"([GATC]+).*\1", dna)
-    if match:
-        print(match.group(1))
     length = 1
     result = ''
     while True:
@@ -31,8 +28,7 @@ def duplications(dna):
             length += 1
         else:
             break
-    print(result)
-    print(len(result))
+    print(f"The longest repeated sequence is:{result}, and it is {len(result)} bases long.")
     return result
 
 def frequency(dna):

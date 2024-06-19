@@ -4,7 +4,7 @@ import sys
 def main():
     filename, duplicate, frequency = fn.user_input(sys.argv)
     dna = fn.read_fasta(filename) ###from here
-    print(dna)
+    print(f"The loaded dna sequence is: {dna}")
 
     if duplicate == "y":
         fn.duplications(dna)
