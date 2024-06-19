@@ -15,7 +15,7 @@ pip install -r requirements.txt
 To run the script, use the following command in the terminal:
 
 ```bash
-python your_script_name.py FILENAME Duplicate(y/n) Frequency(y/n)
+python sequence_analyzer.py FILENAME Duplicate(y/n) Frequency(y/n)
 ```
 
 - `FILENAME`: Path to the FASTA file containing the DNA sequence.
